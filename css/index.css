@@ -175,9 +175,11 @@ img {
   padding: 5rem 4rem;
 }
 .bg img {
-  width: 20%;
+  max-width: 26%;
   position: absolute;
   margin-left: 90rem;
+  margin-right: auto;
+  margin-top: auto;
 }
 .bg h1,
 .bg h2,
@@ -190,9 +192,59 @@ img {
   justify-content: flex-end;
   padding-bottom: 3.5rem;
 }
+.hero-text {
+  padding: 5rem 2rem 4rem 4rem;
+  width: 90%;
+}
 a {
   text-decoration: none;
   margin: auto auto auto auto;
   font-size: 1.5rem;
   color: white;
+}
+.quote {
+  width: 50%;
+  margin: 5rem 0.2rem 4rem 4rem;
+  color: #73A641;
+  margin: 4rem auto 5rem 30rem;
+}
+.quote p {
+  font-size: 2rem;
+  text-align: center;
+}
+.container_1 {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 5rem 0.2rem 4rem 4rem;
+}
+.container_1 p {
+  width: 100%;
+}
+.container_1 h2 {
+  width: 100%;
+}
+.container_2 {
+  margin-bottom: 2rem 0.2rem 5rem 10rem;
+}
+.second-section {
+  max-width: 80%;
+  margin: 5rem 0.2rem 4rem 4rem;
+}
+.second-section .img_slide {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.second-section img {
+  width: 70%;
+  margin: auto 2rem auto 3rem;
+}
+.plant {
+  padding: -20% auto -20% auto;
+}
+.container_3 {
+  margin: 5rem 0.2rem 4rem 5rem;
+  text-align: center;
+  width: 100%;
 }
