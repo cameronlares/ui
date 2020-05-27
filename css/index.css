@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Righteous', cursive;
+  font-family: 'Comfortaa', cursive;
 }
 h1,
 h2,
@@ -167,4 +167,32 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.bg {
+  background-color: #104032;
+  color: white;
+  width: 100%;
+  padding: 5rem 4rem;
+}
+.bg img {
+  width: 20%;
+  position: absolute;
+  margin-left: 90rem;
+}
+.bg h1,
+.bg h2,
+.bg p {
+  width: 50%;
+  margin: 2rem 0.2rem 1rem 3rem;
+}
+.bg .nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 3.5rem;
+}
+a {
+  text-decoration: none;
+  margin: auto auto auto auto;
+  font-size: 1.5rem;
+  color: white;
 }
