@@ -1,0 +1,329 @@
+.bg {
+
+    @media @desktop {
+        background-color: darkcyan;
+
+    }
+
+    background-color:@main-color;
+    color: @font-color;
+    width: 100%;
+    padding: 5rem 4rem;
+
+    //padding-bottom:20rem;
+    @media @phone {
+
+        font-size: 5rem;
+        margin: 0 -0.2 0 0.4rem;
+        padding: 0 auto;
+        width: 100%;
+        background-color: black;
+    }
+
+
+
+
+    img {
+        max-width: 26%;
+        position: absolute;
+        margin-left: 90rem;
+        margin-right: auto;
+        margin-top: auto;
+
+        @media @phone {
+            position: relative;
+            padding: 2rem auto;
+            max-width: 25%;
+            margin: auto;
+
+        }
+
+
+    }
+
+    h1,
+    h2,
+    p {
+        width: 50%;
+        margin: 2rem 0.2rem 1rem 3rem;
+
+
+        @media @phone {
+
+
+            margin: 0 auto;
+            padding: 0 auto;
+            width: 100%;
+        }
+    }
+
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 3.5rem;
+
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+        }
+
+
+    }
+
+}
+
+.hero-text {
+    padding: 5rem 2rem 4rem 4rem;
+    width: 90%;
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+    margin: auto auto auto auto;
+    font-size: 1.5rem;
+    color: @font-color;
+
+    @media @phone {
+        justify-content: space-between;
+        margin: 1rem 0.2rem 1rem 0.1rem;
+    }
+
+
+
+}
+
+.quote {
+
+    width: 50%;
+    margin: 5rem 0.2rem 4rem 4rem;
+    color: #73A641;
+    margin: 4rem auto 5rem 30rem;
+
+    @media @phone {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    @media @desktop {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+
+    p {
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+
+}
+
+.container_1 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 5rem 0.2rem 4rem 4rem;
+
+    @media @desktop {
+
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        font-size: 5rem;
+        margin: 0 -0.2 0 0.4rem;
+        padding: 0 auto;
+        width: 100%;
+        background-color: black;
+        color: @font-color;
+    }
+
+
+
+
+
+    p {
+        //margin:2rem;  
+        width: 100%;
+
+
+        @media @phone {
+            width: 70%;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+    }
+
+    h2 {
+        width: 100%;
+
+        @media @phone {
+            width: 70%;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+
+    }
+
+}
+
+.container_2 {
+    margin-bottom: 2rem 0.2rem 5rem 10rem;
+
+    h2,
+    p {
+        text-align: center;
+    }
+
+}
+
+
+.second-section {
+    max-width: 80%;
+    margin: 5rem 0.2rem 4rem 4rem;
+
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 auto;
+        padding: 0 auto;
+
+    }
+
+    .img_slide {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+
+        }
+
+    }
+
+    img {
+        width: 70%;
+        margin: auto 2rem auto 3rem;
+
+        @media @phone {
+            margin: 2rem auto;
+            padding: 0 auto;
+            width: 80%;
+
+        }
+    }
+}
+
+.plant {
+    padding: -20% auto -20% auto
+}
+
+.container_3 {
+    // margin: 5rem 0.2rem 4rem 5rem; //standard margins 
+    // text-align: center;
+    // width: 100%;
+
+
+    .custom-margin(); //standard margins 
+
+    @media @phone {
+        margin: 2rem auto;
+        padding: 0 auto;
+        width: 100%;
+
+    }
+
+    span {
+        font-style: italic;
+    }
+
+    img {
+        width: 25%;
+        border-radius: 20%;
+    }
+
+}
+
+//Form
+
+form {
+    width: 50%;
+    margin: 1% auto;
+    background-color: @form-color;
+}
+
+.description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+
+#email {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+    width: 25%;
+    height: 46px;
+    background: @main-color;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 2px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    color: white;
+}
+
+
+#submit:hover {
+    background: @main-color;
+}
+
+
+input:focus {
+    outline: none;
+    outline: 2px solid @main-color;
+    box-shadow: 0 0 2px @main-color;
+}
+
+//End form

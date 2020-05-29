@@ -1,0 +1,22 @@
+.custom-margin(@margin: 5rem 0.2rem 4rem 5rem, @width: 100%, @align: center) {
+  margin: @margin;
+  text-align: @align;
+  width: @width;
+}
+
+.mobile-nav(@flex: flex, @column: column, @center: center) {}
+
+
+@media @phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+/*media variables*/
+@tablet: ~"(max-width: 800px)";
+@phone: ~"(max-width: 500px)";
+
+@desktop: ~"(max-width: 1000px)";
